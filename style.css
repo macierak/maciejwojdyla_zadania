@@ -73,7 +73,7 @@ a:hover{
 }
 .selmenu{
     height: 200px;
-    background-color: aqua;
+    color: #0387f3;
     overflow: hidden;
     transform: skewX(-30deg);
 }
