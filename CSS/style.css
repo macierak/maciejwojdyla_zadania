@@ -1,0 +1,38 @@
+.redOnWhite{
+    background-color: white;
+    color: red;
+}
+.background1{
+    background-color: blue;
+}
+.yellowRight{
+    text-indent: 5cm;
+    text-align: right;
+    color: yellow;
+}
+.yellowLeft{
+    text-indent: 5cm;
+    color: yellow;
+    text-align:start;
+}
+.justifyBlack{
+    color: rgb(80, 80, 80);
+    font-size: large;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.blackOnGreen{
+    background-color: rgb(0, 255, 0);
+}
+.background2{
+    background-color: yellow;
+}
+.magenta{
+    background-color: magenta;
+    font-size:16px;
+}
+#repeat{
+    background: url(koteł.jpg);
+    background-repeat: repeat-y;
+}

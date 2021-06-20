@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDENCI>
+    <STUDENT>
+        <IMIĘ>Maciej</IMIĘ>
+        <NAZWISKO>Wojdyła</NAZWISKO>
+        <NR_ALBUMU>24899</NR_ALBUMU>
+        <KIERUNEK>Informatyka</KIERUNEK>
+        <ROK_STUDIÓW>2</ROK_STUDIÓW>
+    </STUDENT>
+    <STUDENT>
+        <IMIĘ>Izabela</IMIĘ>
+        <NAZWISKO>Wojtowicz</NAZWISKO>
+        <NR_ALBUMU>24900</NR_ALBUMU>
+        <KIERUNEK>Informatyka</KIERUNEK>
+        <ROK_STUDIÓW>2</ROK_STUDIÓW>
+    </STUDENT>
+    <STUDENT>
+        <IMIĘ>Krzysztof</IMIĘ>
+        <NAZWISKO>Włóczykij</NAZWISKO>
+        <NR_ALBUMU>12345</NR_ALBUMU>
+        <KIERUNEK>Zielarstwo</KIERUNEK>
+        <ROK_STUDIÓW>3</ROK_STUDIÓW>
+    </STUDENT>
+</STUDENCI>

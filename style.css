@@ -1,0 +1,149 @@
+.title{
+    width: auto;
+    height: 300px;
+    top: 10%;  
+    font-weight: 200;
+    font-size: 30px;
+    
+    line-height: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: radial-gradient(#0387f3, #050a58);
+}
+.profil{
+    border-radius: 50%;
+    margin-top: 20px; 
+    width:100px;
+}
+.content{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    height: 500px;
+
+}
+.leftContent{
+    float: left;
+
+    width: 80%;
+    height: 500px;
+    
+}
+.rightPanel{
+    text-align:  center;
+    float: right;
+    width: 20%;
+    height: fit-content;
+    
+}
+.menu{
+    text-align: center;
+    width: auto;
+    height: 25px;
+    background-color: lightblue;
+    transition: height 1s, background-color 1s;
+    
+}
+.menu:hover{
+    text-align: center;
+    width: auto;
+    height: 50px;
+    background-color: aqua;
+}
+p{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+#lista1{
+    margin-left: -20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover{
+    color: black;
+}
+.selmenu{
+    height: 200px;
+    background-color: aqua;
+    overflow: hidden;
+    transform: skewX(-30deg);
+}
+.selmenu:hover > * {
+    width: 20%;
+}
+.options{
+    float:left;
+    top: -40%;
+    background-color: greenyellow;
+
+    height: 200%;
+    width: 25%;   
+    background-repeat: no-repeat;
+    transition: 1s;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+#opt1{
+    background-image: url("./src/cpbg.jpg"); 
+}
+#opt1:hover{
+    
+}
+#opt2{
+    background-image: url("./src/ctbg.webp"); 
+}
+#opt2:hover{
+    
+}
+#opt3{
+    background-image: url("./src/d2bg.jpg") 
+}
+#opt3:hover{
+    
+}
+#opt4{
+    background-image: url("./src/dcbg.jpg"); 
+}
+#opt4:hover{
+    
+}
+.options:hover{
+    width: 40%;
+    filter: blur(2px);
+}
+.menuimg{ 
+    size: 25px; 
+    transform: rotate(-45deg) scale(0.25);
+    margin-top: 50%;
+    position: relative;
+    right: 25%;
+}
+#frame{
+    border: 0px;
+}
+.leftContent:hover > * {
+    
+}
+.cv{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 50%;
+    height: 40px;
+    transition: 500ms;
+    float: left;
+    text-align: center;
+    color:yellow;
+}
+.cv:hover{
+    background-color: aqua;
+}

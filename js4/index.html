@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form id="forms">
+        <h1>Karta Zgloszenia</h1>
+        <p>Imie i nazwisko:  <input type="text" id="text1" name="ImNaz"></p>
+
+        
+        <p>Instytucja: <input type="text" id="text2" name="ImNaz"></p>
+        <p>Adres: <input type="text" id="text3" name="ImNaz"></p>
+        <p>Telefon: <input type="text" id="text4" name="ImNaz"></p>
+        <p>Fax: <input type="text" id="text5" name="ImNaz"></p>
+        <p>Email: <input type="text" id="text6" name="ImNaz"></p>
+        <p>Mam zamiar zgłosić referat</p>
+        <input id = "rb1" type="radio" name="grupa1" value="opt1" checked="checked" onclick="showforms()"/>Tak
+        <input id = "rb1" type="radio" name="grupa1" value="opt1"/>Nie
+        <p>Zamierzamy dodatkowo przedstawić dorobek firmy w formie:</p>
+        <ul>
+            <p>Prezentacji</p>
+            <input id = "rb2" type="radio" name="grupa2" value="opt1" checked="checked"/>Tak
+            <input id = "rb2" type="radio" name="grupa2" value="opt1"/>Nie
+            
+            <p>Wystawy</p>
+            <input id = "rb3" type="radio" name="grupa3" value="opt1" checked="checked"/>Tak
+            <input id = "rb3" type="radio" name="grupa3" value="opt1"/>Nie
+            <p>Innej</p>
+            <input id = "rb4" type="radio" name="grupa4" value="opt1" checked="checked"/>Tak
+            <input id = "rb4" type="radio" name="grupa4" value="opt1"/>Nie
+        </ul>   
+        <p>Temat listu: <input type="text" id="text7" name="ImNaz"></p>
+        <p>Tytuł referatu i nazwiska autorów</p>
+        <input type="text" id="text8" name="ImNaz" style="resize: both; height: 100px; width:50% ">
+        <br><br>
+        <button onclick="clearFun()">Wyczyść okienka</button>
+        <button onclick="send()">Wyślij list</button>
+    </form>
+</body>
+</html>
